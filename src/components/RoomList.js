@@ -5,7 +5,7 @@ export default function RoomList({ rooms }) {
   if(rooms.length === 0){
     return (
       <div className="empty-search">
-        <h3>infelizmente não foi encontrado nem um quarto com esses parametros</h3>
+        <h3>infelizmente não foi encontrado nem um quarto com esses paramêtros</h3>
       </div>
     )
   }
